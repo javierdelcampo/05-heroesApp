@@ -28,5 +28,20 @@ export class HeroesService {
     //return this.http.get<Heroe[]>( this.baseUrl + '/heroes?q=' + termino + '&limit=6');
     return this.http.get<Heroe[]>(` ${ this.baseUrl }/heroes?q=${ termino }&_limit=6`);
   }
+
+  agregarHeroe ( heroe: Heroe ): Observable<Heroe> {
+    console.log("agregarHeroe()", heroe);
+    return this.http.post<Heroe>(this.baseUrl + '/heroes', heroe);
+  }
+
+  actualizarHeroe ( heroe: Heroe ): Observable<Heroe> {
+    console.log("actualizarHeroe()", heroe);
+    return this.http.put<Heroe>(` ${ this.baseUrl }/heroes/${ heroe.id }`, heroe);
+  }
+
+  borraHeroe ( id: string ): Observable<any>{
+    console.log("borrarHeroe()", id);
+    return this.http.delete<Heroe>(` ${ this.baseUrl }/heroes/${ id }`);
+  }
   
 }

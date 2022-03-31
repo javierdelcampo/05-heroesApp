@@ -15,5 +15,6 @@ export enum Publisher {
     Bruguera = "Bruguera",
     Antena3 = "Antena 3",
     Dinamic = "Dinamic",
-    Ninguno = ""
+    Otros = "Otros",
+    Ninguno = "Ninguno"
 }
