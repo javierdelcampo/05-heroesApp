@@ -1,1 +1,22 @@
-<p>login works!</p>
+
+<mat-grid-list cols="1"
+               *ngIf="showSpinner; else contenido ">
+    <mat-grid-tile>
+        <p><mat-spinner *ngIf="showSpinner === true"></mat-spinner></p>
+    </mat-grid-tile>
+
+</mat-grid-list>
+
+<ng-template #contenido>
+
+    <mat-grid-list cols="1">
+        <mat-grid-tile>
+            <button mat-raised-button
+                    color="primary"
+                    (click)="login()">
+                Ingresar
+            </button>
+        </mat-grid-tile>
+    </mat-grid-list>
+    
+</ng-template>

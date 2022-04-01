@@ -1,0 +1,378 @@
+- Generating browser application bundles (phase: setup)...
+√ Browser application bundle generation complete.
+
+Initial Chunk Files                            | Names         |      Size
+vendor.js                                      | vendor        |   2.68 MB
+polyfills.js                                   | polyfills     | 466.57 kB
+styles.css, styles.js                          | styles        | 420.71 kB
+main.js                                        | main          |  19.96 kB
+runtime.js                                     | runtime       |  11.84 kB
+
+| Initial Total |   3.58 MB
+
+Lazy Chunk Files                               | Names         |      Size
+default-src_app_material_material_module_ts.js | -             |   1.80 MB
+src_app_heroes_heroes_module_ts.js             | -             | 391.10 kB
+src_app_auth_auth_module_ts.js                 | -             |   9.61 kB
+
+Build at: 2022-04-01T05:38:48.865Z - Hash: c179428d8aad5d05b97e - Time: 9418ms
+
+** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **
+
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files | Names |     Size
+main.js             | main  | 20.00 kB
+
+7 unchanged chunks
+
+Build at: 2022-04-01T05:42:25.473Z - Hash: 6527dfe2aee4b4639845 - Time: 884ms
+
+Error: src/app/auth/services/auth.service.ts:24:28 - error TS2355: A function whose declared type is neither 'void' nor 'any' must return a value.
+
+24   verificaAutenticacion(): Observable<boolean> {
+                              ~~~~~~~~~~~~~~~~~~~
+
+
+
+√ Browser application bundle generation complete.
+
+Initial Chunk Files | Names |     Size
+main.js             | main  | 20.31 kB
+
+7 unchanged chunks
+
+Build at: 2022-04-01T05:44:21.956Z - Hash: 1daaf2c5564f5ac16f2a - Time: 551ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files | Names |     Size
+main.js             | main  | 20.31 kB
+
+7 unchanged chunks
+
+Build at: 2022-04-01T05:44:40.951Z - Hash: 5ef1db12a6291a15a9bd - Time: 446ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files | Names |     Size
+main.js             | main  | 20.64 kB
+
+7 unchanged chunks
+
+Build at: 2022-04-01T05:49:38.675Z - Hash: d6124236d9248ac32006 - Time: 409ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files | Names |     Size
+main.js             | main  | 20.71 kB
+
+7 unchanged chunks
+
+Build at: 2022-04-01T05:51:28.042Z - Hash: dca0a767c5dd178d1543 - Time: 503ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files | Names |     Size
+main.js             | main  | 20.79 kB
+
+7 unchanged chunks
+
+Build at: 2022-04-01T05:52:41.793Z - Hash: ce9ff0681e1d22810241 - Time: 387ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Lazy Chunk Files               | Names |     Size
+src_app_auth_auth_module_ts.js | -     | 12.04 kB
+
+7 unchanged chunks
+
+Build at: 2022-04-01T05:54:55.747Z - Hash: 92bd8717b33e729115b8 - Time: 420ms
+
+Error: src/app/auth/pages/login/login.component.html:3:8 - error TS2339: Property 'showSpinner' does not exist on type 'LoginComponent'.
+
+3 *ngIf="showSpinner; else contenido ">
+         ~~~~~~~~~~~
+
+  src/app/auth/pages/login/login.component.ts:7:16
+    7   templateUrl: './login.component.html',
+                     ~~~~~~~~~~~~~~~~~~~~~~~~
+    Error occurs in the template of component LoginComponent.
+
+
+Error: src/app/auth/pages/login/login.component.html:5:32 - error TS2339: Property 'showSpinner' does not exist on type 'LoginComponent'.
+
+5         <p><mat-spinner *ngIf="showSpinner === true"></mat-spinner></p>
+                                 ~~~~~~~~~~~
+
+  src/app/auth/pages/login/login.component.ts:7:16
+    7   templateUrl: './login.component.html',
+                     ~~~~~~~~~~~~~~~~~~~~~~~~
+    Error occurs in the template of component LoginComponent.
+
+
+
+√ Browser application bundle generation complete.
+
+Lazy Chunk Files               | Names |     Size
+src_app_auth_auth_module_ts.js | -     | 12.08 kB
+
+7 unchanged chunks
+
+Build at: 2022-04-01T05:55:38.572Z - Hash: 295174e199397d026631 - Time: 408ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Lazy Chunk Files               | Names |     Size
+src_app_auth_auth_module_ts.js | -     | 12.12 kB
+
+7 unchanged chunks
+
+Build at: 2022-04-01T05:56:16.021Z - Hash: 4bc94305448bb0a883bf - Time: 356ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Lazy Chunk Files               | Names |     Size
+src_app_auth_auth_module_ts.js | -     | 12.12 kB
+
+7 unchanged chunks
+
+Build at: 2022-04-01T05:56:45.183Z - Hash: f7aa253ae28035656c24 - Time: 344ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Lazy Chunk Files               | Names |     Size
+src_app_auth_auth_module_ts.js | -     | 12.12 kB
+
+7 unchanged chunks
+
+Build at: 2022-04-01T05:56:50.681Z - Hash: d204155fe6ce8022af20 - Time: 273ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Lazy Chunk Files               | Names |     Size
+src_app_auth_auth_module_ts.js | -     | 12.12 kB
+
+7 unchanged chunks
+
+Build at: 2022-04-01T05:57:10.298Z - Hash: eb4adbd4d82bff44e095 - Time: 362ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Lazy Chunk Files               | Names |     Size
+src_app_auth_auth_module_ts.js | -     | 12.12 kB
+
+7 unchanged chunks
+
+Build at: 2022-04-01T05:57:17.225Z - Hash: 151b5185cf4906a15183 - Time: 309ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Lazy Chunk Files               | Names |     Size
+src_app_auth_auth_module_ts.js | -     | 12.15 kB
+
+7 unchanged chunks
+
+Build at: 2022-04-01T05:58:06.980Z - Hash: 77d973ef0fb77ee96085 - Time: 371ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+8 unchanged chunks
+
+Build at: 2022-04-01T06:05:47.681Z - Hash: 77d973ef0fb77ee96085 - Time: 469ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files | Names |     Size
+main.js             | main  | 21.06 kB
+
+7 unchanged chunks
+
+Build at: 2022-04-01T06:08:10.016Z - Hash: c8fb989ca2c432bc9253 - Time: 399ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files | Names |     Size
+main.js             | main  | 21.06 kB
+
+7 unchanged chunks
+
+Build at: 2022-04-01T06:08:43.787Z - Hash: d6b5ed08592276c623b0 - Time: 457ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files | Names |     Size
+main.js             | main  | 21.22 kB
+
+7 unchanged chunks
+
+Build at: 2022-04-01T06:10:37.843Z - Hash: bcdcf8a55c1478059dcd - Time: 340ms
+
+Error: src/app/auth/guards/auth.guard.ts:27:9 - error TS2304: Cannot find name 'tap'.
+
+27         tap ( estaAutenticado => {
+           ~~~
+
+
+Error: src/app/auth/guards/auth.guard.ts:27:15 - error TS7006: Parameter 'estaAutenticado' implicitly has an 'any' type.
+
+27         tap ( estaAutenticado => {
+                 ~~~~~~~~~~~~~~~
+
+
+
+√ Browser application bundle generation complete.
+
+Initial Chunk Files | Names |     Size
+main.js             | main  | 21.22 kB
+
+7 unchanged chunks
+
+Build at: 2022-04-01T06:10:47.767Z - Hash: cf563c103a980e106706 - Time: 369ms
+
+Error: src/app/auth/guards/auth.guard.ts:27:9 - error TS2304: Cannot find name 'tap'.
+
+27         tap ( estaAutenticado => {
+           ~~~
+
+
+Error: src/app/auth/guards/auth.guard.ts:27:15 - error TS7006: Parameter 'estaAutenticado' implicitly has an 'any' type.
+
+27         tap ( estaAutenticado => {
+                 ~~~~~~~~~~~~~~~
+
+
+
+√ Browser application bundle generation complete.
+
+Initial Chunk Files | Names |     Size
+main.js             | main  | 21.22 kB
+
+7 unchanged chunks
+
+Build at: 2022-04-01T06:11:14.373Z - Hash: 6ebef5d60ffe1b6bb42a - Time: 246ms
+
+Error: src/app/auth/guards/auth.guard.ts:27:9 - error TS2304: Cannot find name 'tap'.
+
+27         tap ( estaAutenticado => {
+           ~~~
+
+
+Error: src/app/auth/guards/auth.guard.ts:27:15 - error TS7006: Parameter 'estaAutenticado' implicitly has an 'any' type.
+
+27         tap ( estaAutenticado => {
+                 ~~~~~~~~~~~~~~~
+
+
+
+√ Browser application bundle generation complete.
+
+Initial Chunk Files                            | Names  |     Size
+vendor.js                                      | vendor |  2.79 MB
+main.js                                        | main   | 21.35 kB
+
+Lazy Chunk Files                               | Names  |     Size
+default-src_app_material_material_module_ts.js | -      |  1.76 MB
+
+5 unchanged chunks
+
+Build at: 2022-04-01T06:11:20.008Z - Hash: 611e9652d0ae5c6554fb - Time: 561ms
+
+./src/app/auth/guards/auth.guard.ts:17:18-21 - Error: export 'tap' (imported as 'tap') was not found in 'rxjs' (possible exports: ArgumentOutOfRangeError, AsyncSubject, BehaviorSubject, ConnectableObservable, EMPTY, EmptyError, GroupedObservable, NEVER, Notification, NotificationKind, ObjectUnsubscribedError, Observable, ReplaySubject, Scheduler, Subject, Subscriber, Subscription, TimeoutError, UnsubscriptionError, VirtualAction, VirtualTimeScheduler, animationFrame, animationFrameScheduler, asap, asapScheduler, async, asyncScheduler, bindCallback, bindNodeCallback, combineLatest, concat, config, defer, empty, forkJoin, from, fromEvent, fromEventPattern, generate, identity, iif, interval, isObservable, merge, never, noop, observable, of, onErrorResumeNext, pairs, partition, pipe, queue, queueScheduler, race, range, scheduled, throwError, timer, using, zip)
+
+Error: src/app/auth/guards/auth.guard.ts:3:26 - error TS2305: Module '"rxjs"' has no exported member 'tap'.
+
+3 import { Observable, of, tap } from 'rxjs';
+                           ~~~
+
+
+Error: src/app/auth/guards/auth.guard.ts:27:15 - error TS7006: Parameter 'estaAutenticado' implicitly has an 'any' type.
+
+27         tap ( estaAutenticado => {
+                 ~~~~~~~~~~~~~~~
+
+
+
+√ Browser application bundle generation complete.
+
+Initial Chunk Files                            | Names  |     Size
+vendor.js                                      | vendor |  2.68 MB
+main.js                                        | main   | 21.22 kB
+
+Lazy Chunk Files                               | Names  |     Size
+default-src_app_material_material_module_ts.js | -      |  1.80 MB
+
+5 unchanged chunks
+
+Build at: 2022-04-01T06:11:24.432Z - Hash: cf563c103a980e106706 - Time: 520ms
+
+Error: src/app/auth/guards/auth.guard.ts:27:9 - error TS2304: Cannot find name 'tap'.
+
+27         tap ( estaAutenticado => {
+           ~~~
+
+
+Error: src/app/auth/guards/auth.guard.ts:27:15 - error TS7006: Parameter 'estaAutenticado' implicitly has an 'any' type.
+
+27         tap ( estaAutenticado => {
+                 ~~~~~~~~~~~~~~~
+
+
+
+√ Browser application bundle generation complete.
+
+Initial Chunk Files | Names |     Size
+main.js             | main  | 21.38 kB
+
+7 unchanged chunks
+
+Build at: 2022-04-01T06:11:29.473Z - Hash: 6667343e1333de12c86d - Time: 303ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files | Names |     Size
+main.js             | main  | 21.59 kB
+
+7 unchanged chunks
+
+Build at: 2022-04-01T06:11:53.344Z - Hash: 118354d85f740a9e26f7 - Time: 345ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files | Names |     Size
+main.js             | main  | 21.59 kB
+
+7 unchanged chunks
+
+Build at: 2022-04-01T06:12:02.695Z - Hash: 6cc37fb9c7911871b859 - Time: 313ms
+
+√ Compiled successfully.
+√ Browser application bundle generation complete.
+
+Initial Chunk Files | Names |     Size
+main.js             | main  | 21.59 kB
+
+7 unchanged chunks
+
+Build at: 2022-04-01T06:14:52.397Z - Hash: 706c084398a6dcdad1b4 - Time: 449ms
+
+√ Compiled successfully.

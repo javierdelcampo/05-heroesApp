@@ -12,12 +12,17 @@ import { HeroesService } from '../../services/heroes.service';
 export class ListadoComponent implements OnInit {
 
   heroes: Heroe[] = [];
-
+  public showSpinner:boolean=false; 
+  
   constructor( private heroesService: HeroesService ) { }
 
   ngOnInit(): void {
+    this.showSpinner = true;
     this.heroesService.getHeroes()
-      .subscribe ( resp => { this.heroes = resp; });
+      .subscribe ( resp => {
+        this.showSpinner = false; 
+        this.heroes = resp; 
+      });
   }
 
   log(val: string) { console.log(val); }
